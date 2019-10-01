@@ -1,0 +1,71 @@
+@selected-sort-fill: #f1f1f1;
+@table-padding-vertical: 8px;
+@table-padding-horizontal: 16px;
+@arrow-size: 5px;
+.delete{
+    color:	white;
+    
+}
+.color-icons{
+    color:#3F51B5;
+}
+.color-icon-add{
+    color:white;
+    background-color: #00AFA9;
+    border-radius: 15%;
+   width:35px !important;
+   height:35px !important;
+}
+table tr.mat-row {
+    height: 300px;
+  }
+.MuiTableCell-head{ 
+    font-weight: bold !important;
+}
+  .td{
+    height: 10px !important;   
+  }
+.tablas {
+    font-size: 15px;
+    a {
+        margin-left: 2%;
+    }
+    .ReactTable {
+        width: 100%;
+        color: @fondo-base;
+    }
+    .ReactTable .rt-th, .ReactTable .rt-td{
+        padding: 3px 5px;
+    }
+    .ReactTable .rt-thead .rt-th.-cursor-pointer, .ReactTable .rt-thead .rt-td.-cursor-pointer{
+        &:before {
+            // font: normal normal normal 14px/1 FontAwesome;
+            content: "\021F5";
+            position: absolute;
+            top: 1px;
+            right: 15px;
+            font-weight: normal;
+            color: #8f8f8f;
+            font-size: 20px;
+            color: 'black';
+          }
+    }
+    .ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc  {
+        cursor: pointer;   
+        &:focus {
+          background-color: @selected-sort-fill;
+        }        
+      }
+    .ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+         box-shadow: none !important; 
+    }
+    .ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+        box-shadow: none !important; 
+    }
+}
+.MTableToolbar-actions-448{
+  background-color: #01579B;
+  color:white;
+  border-radius: 15%;
+} 
+ 

@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.logo404{
+  height:280px;
+  clip-path: polygon(0 0, 0 53%, 21% 45%, 48% 53%, 75% 46%, 100% 50%, 100% 0); 
+  transform: rotate(160deg);
+  margin-bottom:-25px;
+  margin-left:30px;
+}
+.App{
+ 
+  height:500px;
+  padding-top:100px;
+  
+  background-color: #002B36;
+}
+.logos404{
+  height:280px;
+  clip-path: polygon(0 100%, 0 53%, 21% 45%, 48% 53%, 75% 46%, 100% 50%, 100% 100%);
+margin-left:-262px;
+margin-bottom:-10px;
+transform: rotate(160deg);
+
+}
+.primer-numero{
+  margin-left:60px;
+  display:inline-block;
+}
+
+.primer-numero h1{
+  height:200px;
+  font-size: 300px;
+ color: white;
+
+ letter-spacing: 5px;
+ font-weight: 700;
+ text-shadow: 10px 9px 3px #74b9ff;
+ transition: all 1s linear;
+}
+.segundo-numero{
+  margin-left:60px;
+  display:inline-block;
+}
+.segundo-numero h1{
+  font-size: 300px;
+  height:200px;
+ color: white;
+ letter-spacing: 5px;
+ font-weight: 700;
+ text-shadow: 10px 9px 3px #74b9ff;
+ transition: all 1s linear;
+}
+.contenedor{
+  margin-top:-200px;
+  height:300px;
+  margin-left:-35px;
+  width:100%;
+}
+
+.error{
+  color:white;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+.errors{
+  margin-top:-70px;
+}
+.shape{
+width: 30px;
+height: 30px;
+position:absolute;
+background-color: #00eaff;
+border-radius: 50%;
+border-top-right-radius: 0;
+transform: rotate(-105deg);
+
+ top: 405px;
+ left: 630px;
+border: 2px solid #fff;
+
+animation-delay:1s;
+}
+@keyframes shape{
+
+  10%{width:0px}
+  50%{width:30px;}
+  52%{width:30px;}
+}
+
+
+
+
+
+
